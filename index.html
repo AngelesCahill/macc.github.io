@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Mi Portafolio</div>
+            <ul class="nav-links">
+                <li class="nav-links"><a href="#about">Sobre mí</a></li>
+                <li class="nav-links"><a href="#projects">Proyectos</a></li>
+                <li class="nav-links"><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero dibujo">
+        <div class="hero-content">
+        <h1>¡Hola! Soy <span>Angeles Cahill</span></h1>
+        <p>Desarrolladora web apasionada y creativa.</p>
+            <a href="#projects" class="btn btn-primary">Ver mis proyectos</a>
+</div>
+    </section>
+
+    <section id="about" class="about">
+        <article class="about-content">
+            <h2>Sobre mí</h2>
+            <p>
+                Estudíe interpretación inglés - español en la UNAB pero nunca ejercí. 
+                Por temas familiares preferí buscar un trabajo que me permitiera manejar mis horarios y
+                descubrí el mundo del corretaje de propiedades, donde me desempeñé durante 10 años.
+                La pandemia me permitió descubrir la programación y me enamoré de ella.
+                Actualmente soy, ya hace 4 años, configuradora de autómatas en una empresa del área fintech.
+                Me gusta aprender cosas nuevas y me encanta la tecnología.
+            </p> 
+        </article>
+        <br>
+        <article class="about-">
+            <h2>tecnologías aprendidas</h2>
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img src="./assets/images/html.png" alt="logo html"></td>
+                            <td><img src="./assets/images/css.png" alt="logo css" ></td>
+                            <td><img src="./assets/images/js.webp" alt="logo JS" ></td>
+                            <td><img src="./assets/images/nodejs.png" alt="logo de nodejs" ></td>
+                            <td><img src="./assets/images/express.png" alt="logo express" ></td>
+                            <td><img src="./assets/images/postgres.jpeg" alt="logo postgres" ></td>
+                            <td><img src="./assets/images/git.webp" alt="logo git" ></td>
+                            <td><img src="./assets/images/GitHub-Logo.png" alt="logo github" ></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./assets/images/sequelize-logo.png" alt="logo sequelize"></td>
+                            <td><img src="./assets/images/postgres.jpeg" alt="logo postgres" ></td>
+                            <td><img src="./assets/images/jenkins.jpg" alt="logo jenkins" ></td>
+                            <td><img src="./assets/images/jwt.png" alt="logo de jwt" ></td>
+                            <td><img src="./assets/images/react.png" alt="logo react" ></td>
+                            <td><img src="./assets/images/typescript.png" alt="logo typescript" ></td>
+                            <td><img src="./assets/images/canva.jpeg" alt="logo canva" ></td>
+                            <td><img src="./assets/images/figma.avif" alt="logo figma" ></td>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="./assets/images/proyect-revista-online.png" alt="">
+                <h3>Revista online</h3>
+                <p>Práctica de html y Css</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/revistaonline.git</p>
+            </div>
+            <div class="project">
+                <img src="./assets/images/proyect-rick-morty-vue.png" alt="">
+                <h3>Api Rick & Morty</h3>
+                <p>Proyecto realizado con Vue y usando Fetch para llamar una api</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/pruebaRickMorty.git</p>
+            </div>
+            <div class="project">
+                <img src="./assets/images/proyect-react.png" alt="">
+                <h3>React primeros pasos</h3>
+                <p>Aprendiendo react, componentes, useState, cards, listas</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/react-primeros-pasos.git</p>
+            </div>
+        </div>
+        <div class="project-grid">
+            <div class="project">
+                <img src="./assets/images/proyect-bootcamps.png" alt="">
+                <h3>Proyecto backend Nodejs Bootcamps</h3>
+                <p>En el proyecto se usó JavaScript, nodejs y express, sequelize, Postgres, Sequileze, jwt y bcrypt</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/m8-evFinal-jwtNode.git</p>
+            </div>
+            <div class="project">
+                <img src="./assets/images/proyect-fs.png" alt="">
+                <h3>Hito 1 - Backend</h3>
+                <p>Este proyecto está hecho con Typescript, nodejs, express, fs y autenticación con jwt y bcrypt</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/hito1-fs.git</p>
+            </div>
+            <div class="project">
+                <img src="./assets/images/proyect-jenkins.png" alt="">
+                <h3>Integracion con Jenkins</h3>
+                <p>Se crea imagen Docker y se realiza integración con Jenkins</p>
+                <p>Repositorio:</p>
+                <p>https://github.com/AngelesCahill/task-api-docker-jenkins.git</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Angeles Cahill. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="https://github.com/AngelesCahill" target="_blank">GitHub</a>
+            <tr> * </tr>
+            <a href="https://www.linkedin.com/in/angeles-cahill/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
